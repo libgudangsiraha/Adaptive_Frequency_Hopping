@@ -50,4 +50,79 @@ Channel observations / feedback
                     ▼
         Communication outcome
                     │
-                    └────────── feedback咕咕嘎嘎
+                    └────────── feedback
+```
+
+---                    
+
+## Research Questions
+
+This project investigates questions including:
+
+How should frequency hopping be formulated as an online decision problem?
+How can communication reward and jamming exposure be modeled jointly?
+When should the learner favor exploitation versus exploration?
+How should a system adapt when the environment changes over time?
+Can risk-aware policy selection improve robustness without sacrificing excessive communication utility?
+What performance guarantees can be established relative to independent online-learning baselines?
+
+--- 
+
+## Main Components
+Online Channel Selection
+
+Channel selection is modeled as a sequential learning problem in which the transmitter continuously updates its policy from observed communication feedback.
+
+Risk-Aware Adaptation
+
+The learner incorporates an explicit notion of exposure or risk in addition to conventional reward optimization.
+
+This allows the system to distinguish between actions that are immediately attractive and actions that may make future transmissions easier to predict or attack.
+
+Adaptive Model Selection
+
+Multiple online-learning behaviors can be combined or selected according to the observed environment, allowing the system to adapt between different operating regimes.
+
+Multi-Step Evaluation
+
+The framework is evaluated in terms of both communication performance and adversarial exposure over long sequential horizons.
+
+--- 
+
+## Baselines
+
+The experimental study includes representative online-learning and bandit baselines such as:
+
+UCB
+Thompson Sampling
+EXP3
+contextual / risk-aware online-learning methods
+adaptive frequency-hopping baselines
+
+Exact configurations are provided with the reproducibility package.
+
+--- 
+
+## Repository Status
+
+Paper companion repository under preparation.
+
+The final repository will contain:
+
+implementation of the proposed method;
+baseline algorithms;
+experiment configurations;
+reproducibility scripts;
+evaluation utilities;
+paper figures and tables;
+tests and environment information.
+
+The public implementation will be frozen together with the corresponding manuscript.
+
+--- 
+
+## Reproducibility
+
+The final release will provide scripts for reproducing the main experimental results and paper-facing figures.
+
+Reproduction instructions will be documented in:
