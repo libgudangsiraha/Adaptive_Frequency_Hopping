@@ -2,133 +2,124 @@
 
 **Risk-aware adaptive frequency hopping with multi-armed bandits and online learning.**
 
-This repository contains the research implementation of an adaptive frequency-hopping framework for communication systems operating under uncertain and potentially adversarial interference.
+This repository contains the paper-companion MATLAB implementation of
+**D-PACT-AFH**, an adaptive frequency-hopping framework for communication under
+uncertain and potentially predictive interference.
 
-The project studies how a transmitter can adaptively select communication channels while balancing **communication utility**, **exploration**, and **exposure to predictive or adaptive jamming**.
+The project studies sequential channel selection under two coupled objectives:
+high communication utility and controlled exposure to an adversary that can
+exploit predictable hopping behavior.
 
----
+## Highlights
 
-## Overview
+- online channel selection under bandit feedback;
+- dynamic selection between linear-contextual and local-contextual models;
+- Tsallis-FTRL master over adaptive base learners;
+- prediction-risk-aware exploration;
+- fixed-budget attack-set inclusion risk;
+- KL-constrained risk projection for **D-PACT-Safe95**;
+- resumable per-seed experiments;
+- common-seed comparisons against classical and modern bandit baselines;
+- paper-scale robustness, ablation, and scaling experiments.
 
-Adaptive frequency hopping can be formulated as a sequential decision-making problem.
+## D-PACT Variants
 
-At each time step, the transmitter selects a channel, observes communication feedback, and updates its channel-selection strategy. The challenge becomes more difficult when channel quality is nonstationary or when the interference process reacts to predictable transmission behavior.
-
-This project develops a risk-aware online-learning framework based on ideas from:
-
-- Multi-Armed Bandits
-- Online Learning
-- Adaptive Frequency Hopping
-- Wireless Communications
-- Adversarial Decision Making
-- Risk-Aware Model Selection
-
-The objective is not only to maximize communication performance, but also to control the predictability and exposure associated with channel-selection decisions.
-
----
-
-## Method at a Glance
-
-```text
-Channel observations / feedback
-            │
-            ▼
-     Online learner
-            │
-            ├───────────────┐
-            │               │
-            ▼               ▼
-   Utility estimation    Risk estimation
-            │               │
-            └───────┬───────┘
-                    ▼
-            Policy adaptation
-                    │
-                    ▼
-          Frequency selection
-                    │
-                    ▼
-        Communication outcome
-                    │
-                    └────────── feedback
-```
-
----                    
-
-## Research Questions
-
-This project investigates questions including:
-
-- How should frequency hopping be formulated as an online decision problem?
-- How can communication reward and jamming exposure be modeled jointly?
-- When should the learner favor exploitation versus exploration?
-- How should a system adapt when the environment changes over time?
-- Can risk-aware policy selection improve robustness without sacrificing excessive communication utility?
-- What performance guarantees can be established relative to independent online-learning baselines?
-
---- 
-
-## Main Components
-
-### Online Channel Selection
-Channel selection is modeled as a sequential learning problem in which the transmitter continuously updates its policy from observed communication feedback.
-
-### Risk-Aware Adaptation
-The learner incorporates an explicit notion of exposure or risk in addition to conventional reward optimization.
-This allows the system to distinguish between actions that are immediately attractive and actions that may make future transmissions easier to predict or attack.
-
-### Adaptive Model Selection
-Multiple online-learning behaviors can be combined or selected according to the observed environment, allowing the system to adapt between different operating regimes.
-
-### Multi-Step Evaluation
-The framework is evaluated in terms of both communication performance and adversarial exposure over long sequential horizons.
-
---- 
+- **D-PACT-Base** — adaptive model selection without prediction-risk control.
+- **D-PACT-Hit** — risk-aware high-throughput operating point.
+- **D-PACT-Safe95** — constrained point selected to retain at least 95% of the
+  unconstrained D-PACT-Hit goodput while reducing expected hit exposure.
 
 ## Baselines
 
-The experimental study includes representative online-learning and bandit baselines such as:
+The final paper suite includes representative baselines such as:
 
-UCB
-Thompson Sampling
-EXP3
-contextual / risk-aware online-learning methods
-adaptive frequency-hopping baselines
+- UCB
+- Thompson Sampling
+- EXP3
+- LC-Tsallis-INF-Online
+- risk-aware EXP4
+- AUFH-EXP3++
 
-Exact configurations are provided with the reproducibility package.
+## Quick Start
 
---- 
+Open MATLAB in the repository root:
 
-## Repository Status
+```matlab
+clear functions
+rehash
+setup_paths
+```
 
-Paper companion repository under preparation.
+Run the fast release checks:
 
-The final repository will contain:
+```matlab
+run('scripts/verify_release.m')
+```
 
-implementation of the proposed method;
-baseline algorithms;
-experiment configurations;
-reproducibility scripts;
-evaluation utilities;
-paper figures and tables;
-tests and environment information.
+Run the complete final communication-paper suite:
 
-The public implementation will be frozen together with the corresponding manuscript.
+```matlab
+final = run_complete_communication_rebuild("full");
+```
 
---- 
+The full experiment is resumable: completed per-seed checkpoints are reused.
+
+## Repository Structure
+
+```text
+adversaries/                  attack models
+config/                       frozen experiment configurations
+core/                         execution, aggregation, checkpoint/resume
+diagnostics/                  model diagnostics
+env/                          communication environment and reward
+experts/                      policy/expert construction
+learners/                     online learners and D-PACT
+metrics/                      evaluation metrics
+plots/                        publication plots
+policies/                     policy utilities
+tables/                       table generation
+experiments/communication/    final experiment runners
+tests/current/                active tests
+results/paper_complete/full/  paper-facing figures and tables
+docs/                         method and reproducibility documentation
+```
+
+## Final Experiment Bundle
+
+The frozen v3.8 paper suite includes C1--C6 plus the Safe frontier:
+
+- C1 — system parameters
+- C2 — running performance / endpoint tradeoff
+- C3 — cross-attacker robustness
+- C4 — mechanism ablation
+- C4b — model-selection behavior
+- C5 — environment-regime robustness
+- C6 — channel/horizon/runtime scaling
+- S1/S2 — risk--goodput frontier and calibrated safe operating points
+
+See [`docs/RESULTS.md`](docs/RESULTS.md).
 
 ## Reproducibility
 
-The final release will provide scripts for reproducing the main experimental results and paper-facing figures.
+Detailed instructions are in
+[`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md).
 
-Reproduction instructions will be documented in:
+The public repository includes the final lightweight figures and tables, but
+not the original multi-gigabyte raw MATLAB result/checkpoint tree. Those
+artifacts are reproducible from the retained v3.8 source.
 
-```text
-docs/REPRODUCIBILITY.md
-```
+## Paper
+
+Paper/preprint URL: **to be added when public**.
+
 ## Citation
-Citation information will be added when the corresponding manuscript or preprint becomes publicly available.
+
+The final BibTeX entry will be added when the corresponding manuscript or
+preprint is public.
 
 ## Author
-### Chen Yanbo
-Research interests: signal processing, wireless communications, machine learning, online learning, optimization, and intelligent systems.
+
+**Chen Yanbo**
+
+Research interests: signal processing, wireless communications, machine
+learning, online learning, optimization, and intelligent systems.

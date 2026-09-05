@@ -1,0 +1,19 @@
+Parameter,Value,Role
+Number of channels K,12,Spectrum action space
+Horizon T,10000,Rounds per full experiment
+Attacked channels M,1,Common attack budget
+Transmit power,1,Normalized physical model
+Noise floor,0.05,Normalized physical model
+Natural occupancy probability,0.15,Exogenous occupancy
+Jammer strength,2,Normalized jammer power
+Bandwidth,1000000 Hz,Goodput readout
+Packet size,1000 bits,Packet delivery model
+Slot duration,0.001 s,Packet delivery model
+Outage threshold,3.00 dB,Successful-delivery gate
+MCS spectral-efficiency cap,4.00 bit/s/Hz,Finite-rate readout
+Context dimension,4,Public context
+D-PACT risk coefficient beta,16,Calibrated hit-risk master loss
+D-PACT tilt coefficient nu,0,Directional policy tilt (disabled)
+Local partition bins,[4 4 2],Piecewise local-linear base
+Local ridge coefficient,0.1,Piecewise local-linear base
+Safe operating-point label,safe95,Reference-calibrated safety point

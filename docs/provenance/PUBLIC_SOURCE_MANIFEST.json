@@ -1,0 +1,1623 @@
+{
+  "project": "D-PACT-AFH v3.8 communication release",
+  "policy": "Active MATLAB code and lightweight paper-facing artifacts are copied byte-for-byte from the retained v3.8 project. Raw MAT/checkpoint trees are excluded.",
+  "all_exact_copies": true,
+  "files": [
+    {
+      "path": "adversaries/adversary_predict.m",
+      "kind": "active_matlab_source",
+      "sha256": "a6ce2f77e4165b9b1afa336db7a1e49bb6ebe77bebde88ee92cbf5cb576d9939",
+      "source_sha256": "a6ce2f77e4165b9b1afa336db7a1e49bb6ebe77bebde88ee92cbf5cb576d9939",
+      "exact_copy": true,
+      "size_bytes": 5195
+    },
+    {
+      "path": "adversaries/adversary_update.m",
+      "kind": "active_matlab_source",
+      "sha256": "6ab7467c70e316c7ccc2e5981ff6f8d903c6199b4f166d933eb25d3561b12d47",
+      "source_sha256": "6ab7467c70e316c7ccc2e5981ff6f8d903c6199b4f166d933eb25d3561b12d47",
+      "exact_copy": true,
+      "size_bytes": 5472
+    },
+    {
+      "path": "adversaries/attack_inclusion_probability.m",
+      "kind": "active_matlab_source",
+      "sha256": "debbb9df4900ebe116bf585e00d2c49ab8569f946215c4b4a5387848e56adc83",
+      "source_sha256": "debbb9df4900ebe116bf585e00d2c49ab8569f946215c4b4a5387848e56adc83",
+      "exact_copy": true,
+      "size_bytes": 2947
+    },
+    {
+      "path": "adversaries/build_contextual_predictor_experts.m",
+      "kind": "active_matlab_source",
+      "sha256": "4093bfc947c8fa636a78e5be3140ea9354860a5659992f566ffce0f5958b2042",
+      "source_sha256": "4093bfc947c8fa636a78e5be3140ea9354860a5659992f566ffce0f5958b2042",
+      "exact_copy": true,
+      "size_bytes": 4425
+    },
+    {
+      "path": "adversaries/evaluate_contextual_predictor_experts.m",
+      "kind": "active_matlab_source",
+      "sha256": "200c254babc0c35dd798a1bbf3a864ec2ac616d7721f9769deaeca1833cbfd7c",
+      "source_sha256": "200c254babc0c35dd798a1bbf3a864ec2ac616d7721f9769deaeca1833cbfd7c",
+      "exact_copy": true,
+      "size_bytes": 3808
+    },
+    {
+      "path": "adversaries/init_adversary.m",
+      "kind": "active_matlab_source",
+      "sha256": "4dc52df58763f6abce5a8c5ea938c7e448f16e3fb43de0adca591525b5455340",
+      "source_sha256": "4dc52df58763f6abce5a8c5ea938c7e448f16e3fb43de0adca591525b5455340",
+      "exact_copy": true,
+      "size_bytes": 3633
+    },
+    {
+      "path": "adversaries/sample_adversary_action.m",
+      "kind": "active_matlab_source",
+      "sha256": "631fcd006f49252c4ad8561cd7fd3cae03df171042c5025d5c07cd9908d7efab",
+      "source_sha256": "631fcd006f49252c4ad8561cd7fd3cae03df171042c5025d5c07cd9908d7efab",
+      "exact_copy": true,
+      "size_bytes": 555
+    },
+    {
+      "path": "adversaries/sample_attack_realization.m",
+      "kind": "active_matlab_source",
+      "sha256": "342900024206b719b908b27640a15fee4d8cd7e6fa3afc112be31aa4da6d1439",
+      "source_sha256": "342900024206b719b908b27640a15fee4d8cd7e6fa3afc112be31aa4da6d1439",
+      "exact_copy": true,
+      "size_bytes": 2424
+    },
+    {
+      "path": "adversaries/sample_attack_set.m",
+      "kind": "active_matlab_source",
+      "sha256": "92cc5d36b57d3864999cb41f1e0a4cf583a76d56684f70328bdc069986e7029e",
+      "source_sha256": "92cc5d36b57d3864999cb41f1e0a4cf583a76d56684f70328bdc069986e7029e",
+      "exact_copy": true,
+      "size_bytes": 1162
+    },
+    {
+      "path": "adversaries/sample_fixed_size_attack_set.m",
+      "kind": "active_matlab_source",
+      "sha256": "9ac0bc267e346d46b7f59ff08d780b1e19e3d81cb207933caa02939b74e8d9cd",
+      "source_sha256": "9ac0bc267e346d46b7f59ff08d780b1e19e3d81cb207933caa02939b74e8d9cd",
+      "exact_copy": true,
+      "size_bytes": 1958
+    },
+    {
+      "path": "config/get_adversary_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "411da0646ef58980a683440ad1360709d80994b57206c8658edcedcabb87f49a",
+      "source_sha256": "411da0646ef58980a683440ad1360709d80994b57206c8658edcedcabb87f49a",
+      "exact_copy": true,
+      "size_bytes": 3736
+    },
+    {
+      "path": "config/get_base_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "831facfd3d3e1b1deecf75947486e0131b8f4685c9ebf16070b35e68e19465fc",
+      "source_sha256": "831facfd3d3e1b1deecf75947486e0131b8f4685c9ebf16070b35e68e19465fc",
+      "exact_copy": true,
+      "size_bytes": 5984
+    },
+    {
+      "path": "config/get_communication_suite_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "a03d4cd8e7fe8dff532f279622e5cc92edce5966087675e1eba075c0545f6a46",
+      "source_sha256": "a03d4cd8e7fe8dff532f279622e5cc92edce5966087675e1eba075c0545f6a46",
+      "exact_copy": true,
+      "size_bytes": 3750
+    },
+    {
+      "path": "config/get_dynamic_c5_c6_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "7b863483acc8548bd5a3dc78dbc07010adc9e035e6829759bf8e2d9025b40ed4",
+      "source_sha256": "7b863483acc8548bd5a3dc78dbc07010adc9e035e6829759bf8e2d9025b40ed4",
+      "exact_copy": true,
+      "size_bytes": 2368
+    },
+    {
+      "path": "config/get_dynamic_hit_c3_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "d1e0e9b6e25db391f8b568ae848e9597e1da23c707e10b7f9fa9b52125302323",
+      "source_sha256": "d1e0e9b6e25db391f8b568ae848e9597e1da23c707e10b7f9fa9b52125302323",
+      "exact_copy": true,
+      "size_bytes": 1418
+    },
+    {
+      "path": "config/get_dynamic_hit_pareto_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "d962eb02b2d5fd7be3b92f3f3eab56b9b50916cab986506a504abea5584f9d51",
+      "source_sha256": "d962eb02b2d5fd7be3b92f3f3eab56b9b50916cab986506a504abea5584f9d51",
+      "exact_copy": true,
+      "size_bytes": 1332
+    },
+    {
+      "path": "config/get_dynamic_pact_validation_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "bf9d5e177d1dd7d12acb40751e3652960d0ed62ee4b73cd4aa6c9f66ba9f529c",
+      "source_sha256": "bf9d5e177d1dd7d12acb40751e3652960d0ed62ee4b73cd4aa6c9f66ba9f529c",
+      "exact_copy": true,
+      "size_bytes": 1157
+    },
+    {
+      "path": "config/get_dynamic_safe_projection_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "908a53a653fd0e88ad57be74c37a5bd04771b71e8b9c140efde48c71cb8f5fba",
+      "source_sha256": "908a53a653fd0e88ad57be74c37a5bd04771b71e8b9c140efde48c71cb8f5fba",
+      "exact_copy": true,
+      "size_bytes": 1271
+    },
+    {
+      "path": "config/get_final_c1_c4_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "0aa54c9ce6bcaa2484b4e90904e951bbd1a979cadcad34b2c4acb324376b7b63",
+      "source_sha256": "0aa54c9ce6bcaa2484b4e90904e951bbd1a979cadcad34b2c4acb324376b7b63",
+      "exact_copy": true,
+      "size_bytes": 2591
+    },
+    {
+      "path": "config/get_hit_risk_rerun_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "0b7054f33b4f62d9ed2c01ac6a7d4ec91b3d0e29ea12dff56f040ecc30f8c221",
+      "source_sha256": "0b7054f33b4f62d9ed2c01ac6a7d4ec91b3d0e29ea12dff56f040ecc30f8c221",
+      "exact_copy": true,
+      "size_bytes": 744
+    },
+    {
+      "path": "config/get_learner_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "79baf7051442722313c02620a4871b450e9abc2dc590121e6c7180407fe23522",
+      "source_sha256": "79baf7051442722313c02620a4871b450e9abc2dc590121e6c7180407fe23522",
+      "exact_copy": true,
+      "size_bytes": 13813
+    },
+    {
+      "path": "config/get_model_diagnostic_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "787a1cbc702cda4a5a8fa67e4a141c0471afb8c968fe2a5a8ae93bd25f14d130",
+      "source_sha256": "787a1cbc702cda4a5a8fa67e4a141c0471afb8c968fe2a5a8ae93bd25f14d130",
+      "exact_copy": true,
+      "size_bytes": 1632
+    },
+    {
+      "path": "config/get_pact_expert_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "e4bdadfc15f206b831c054c3fe441a09fe843485873e09de9d3a471b0599d799",
+      "source_sha256": "e4bdadfc15f206b831c054c3fe441a09fe843485873e09de9d3a471b0599d799",
+      "exact_copy": true,
+      "size_bytes": 1176
+    },
+    {
+      "path": "config/get_partition_expert_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "7e19494d5e98bc6c8498f6610d6890d5b1742573170ffa5d654c59963d0959aa",
+      "source_sha256": "7e19494d5e98bc6c8498f6610d6890d5b1742573170ffa5d654c59963d0959aa",
+      "exact_copy": true,
+      "size_bytes": 1543
+    },
+    {
+      "path": "core/aggregate_seed_records.m",
+      "kind": "active_matlab_source",
+      "sha256": "a236c7547fc6e9b0d2bf59ef0ee3015aad3c499d203a01b2989cbb6b78f898a6",
+      "source_sha256": "a236c7547fc6e9b0d2bf59ef0ee3015aad3c499d203a01b2989cbb6b78f898a6",
+      "exact_copy": true,
+      "size_bytes": 9955
+    },
+    {
+      "path": "core/build_experiment_key.m",
+      "kind": "active_matlab_source",
+      "sha256": "08c3622a81e23382f258cf09fe2e79dd3523a4c9aeaabe2042540e447fa45a49",
+      "source_sha256": "08c3622a81e23382f258cf09fe2e79dd3523a4c9aeaabe2042540e447fa45a49",
+      "exact_copy": true,
+      "size_bytes": 2020
+    },
+    {
+      "path": "core/run_multi_seed_pair.m",
+      "kind": "active_matlab_source",
+      "sha256": "6f23fca2480d9898204d9b0e9ab50a606c666cb00d6b42039a4ba8fcfcc1a0b4",
+      "source_sha256": "6f23fca2480d9898204d9b0e9ab50a606c666cb00d6b42039a4ba8fcfcc1a0b4",
+      "exact_copy": true,
+      "size_bytes": 6464
+    },
+    {
+      "path": "core/run_one_seed_record.m",
+      "kind": "active_matlab_source",
+      "sha256": "eb82aa99db2e49787a93909ce09d6cad4db336d4890e630f007659c765e622a1",
+      "source_sha256": "eb82aa99db2e49787a93909ce09d6cad4db336d4890e630f007659c765e622a1",
+      "exact_copy": true,
+      "size_bytes": 7741
+    },
+    {
+      "path": "core/run_single_pair.m",
+      "kind": "active_matlab_source",
+      "sha256": "754e73c656601b98eadaf01a0a3df034b50c522399199a5efba6b87ef52b2813",
+      "source_sha256": "754e73c656601b98eadaf01a0a3df034b50c522399199a5efba6b87ef52b2813",
+      "exact_copy": true,
+      "size_bytes": 15274
+    },
+    {
+      "path": "core/run_synthetic_dynamic_pair.m",
+      "kind": "active_matlab_source",
+      "sha256": "861c31946974afc6d4031c2d0a90dfdd6e2c27f2c36bdf013c79b9613034ea7d",
+      "source_sha256": "861c31946974afc6d4031c2d0a90dfdd6e2c27f2c36bdf013c79b9613034ea7d",
+      "exact_copy": true,
+      "size_bytes": 2875
+    },
+    {
+      "path": "core/save_seed_checkpoint.m",
+      "kind": "active_matlab_source",
+      "sha256": "3da6562f47533ef004edc98adffedbec7f3386801e34a5c0275287db0ae900e2",
+      "source_sha256": "3da6562f47533ef004edc98adffedbec7f3386801e34a5c0275287db0ae900e2",
+      "exact_copy": true,
+      "size_bytes": 361
+    },
+    {
+      "path": "diagnostics/build_diagnostic_basis.m",
+      "kind": "active_matlab_source",
+      "sha256": "2ef35f7b4de6952703a0d164c723e70c9804352d4a7c6e7f68a4e00aff983b01",
+      "source_sha256": "2ef35f7b4de6952703a0d164c723e70c9804352d4a7c6e7f68a4e00aff983b01",
+      "exact_copy": true,
+      "size_bytes": 940
+    },
+    {
+      "path": "diagnostics/build_diagnostic_dataset.m",
+      "kind": "active_matlab_source",
+      "sha256": "8becf2b5eb3f2706a91a23465075df1a714a3c3745c1eed2d609ae936242dd45",
+      "source_sha256": "8becf2b5eb3f2706a91a23465075df1a714a3c3745c1eed2d609ae936242dd45",
+      "exact_copy": true,
+      "size_bytes": 2030
+    },
+    {
+      "path": "diagnostics/evaluate_actual_run_oracle.m",
+      "kind": "active_matlab_source",
+      "sha256": "cb9c7223d474924666225ab0aa3b4103f926fd22d5ccfae6c772a4267dbce422",
+      "source_sha256": "cb9c7223d474924666225ab0aa3b4103f926fd22d5ccfae6c772a4267dbce422",
+      "exact_copy": true,
+      "size_bytes": 2000
+    },
+    {
+      "path": "diagnostics/evaluate_diagnostic_reward_model.m",
+      "kind": "active_matlab_source",
+      "sha256": "206f246c50f2dddb115e307be562b60be6a66ecf033a7234512ab5b0a620c32a",
+      "source_sha256": "206f246c50f2dddb115e307be562b60be6a66ecf033a7234512ab5b0a620c32a",
+      "exact_copy": true,
+      "size_bytes": 1716
+    },
+    {
+      "path": "diagnostics/evaluate_model_mismatch_oracle.m",
+      "kind": "active_matlab_source",
+      "sha256": "be85c99093027f885adbee01c67910a8df18f669cc7416b229b293152192027d",
+      "source_sha256": "be85c99093027f885adbee01c67910a8df18f669cc7416b229b293152192027d",
+      "exact_copy": true,
+      "size_bytes": 7321
+    },
+    {
+      "path": "diagnostics/evaluate_pact_expert_oracle.m",
+      "kind": "active_matlab_source",
+      "sha256": "e398dd4c685aa3ba58d5275b7b2375526a76d67eed37e6b28acc524fb0d50fa4",
+      "source_sha256": "e398dd4c685aa3ba58d5275b7b2375526a76d67eed37e6b28acc524fb0d50fa4",
+      "exact_copy": true,
+      "size_bytes": 1958
+    },
+    {
+      "path": "diagnostics/fit_diagnostic_ridge.m",
+      "kind": "active_matlab_source",
+      "sha256": "ecbc9b13d53ef668f7ad0d5ac748609f9beeb690c1eec8c7ed058bb795cab92c",
+      "source_sha256": "ecbc9b13d53ef668f7ad0d5ac748609f9beeb690c1eec8c7ed058bb795cab92c",
+      "exact_copy": true,
+      "size_bytes": 359
+    },
+    {
+      "path": "diagnostics/plot_diagnostic_backbone.m",
+      "kind": "active_matlab_source",
+      "sha256": "f9a244e1ca4389bbf8ca968ae0b2958eadd4c460641a9a8d986012c7e302ad00",
+      "source_sha256": "f9a244e1ca4389bbf8ca968ae0b2958eadd4c460641a9a8d986012c7e302ad00",
+      "exact_copy": true,
+      "size_bytes": 1390
+    },
+    {
+      "path": "diagnostics/plot_diagnostic_expressivity.m",
+      "kind": "active_matlab_source",
+      "sha256": "cbb317f82a60a4372fa8c1055e430ddcec85f853fabb8732e08fd07048188cff",
+      "source_sha256": "cbb317f82a60a4372fa8c1055e430ddcec85f853fabb8732e08fd07048188cff",
+      "exact_copy": true,
+      "size_bytes": 1312
+    },
+    {
+      "path": "diagnostics/plot_diagnostic_linearity.m",
+      "kind": "active_matlab_source",
+      "sha256": "c0f9fb428e051fb96460710a3b5b9d927060f3f9787c0cd9b80166f34d93caba",
+      "source_sha256": "c0f9fb428e051fb96460710a3b5b9d927060f3f9787c0cd9b80166f34d93caba",
+      "exact_copy": true,
+      "size_bytes": 1098
+    },
+    {
+      "path": "diagnostics/plot_diagnostic_oracles.m",
+      "kind": "active_matlab_source",
+      "sha256": "6fda9d396817be238ae59b0e416e9473be7b04208da029641d952b625205a085",
+      "source_sha256": "6fda9d396817be238ae59b0e416e9473be7b04208da029641d952b625205a085",
+      "exact_copy": true,
+      "size_bytes": 667
+    },
+    {
+      "path": "diagnostics/run_pact_model_diagnostics.m",
+      "kind": "active_matlab_source",
+      "sha256": "3a647795ebeab4a9b190607544abd6aa5f1fb013044eb6c6cb6a309d147cd1dd",
+      "source_sha256": "3a647795ebeab4a9b190607544abd6aa5f1fb013044eb6c6cb6a309d147cd1dd",
+      "exact_copy": true,
+      "size_bytes": 17689
+    },
+    {
+      "path": "diagnostics/run_synthetic_expressivity_diagnostic.m",
+      "kind": "active_matlab_source",
+      "sha256": "7f701fd067dab7b2019a5df601de71cadfdd0042b405b2cdba5946ddf2b0827b",
+      "source_sha256": "7f701fd067dab7b2019a5df601de71cadfdd0042b405b2cdba5946ddf2b0827b",
+      "exact_copy": true,
+      "size_bytes": 4395
+    },
+    {
+      "path": "diagnostics/write_diagnostic_verdict.m",
+      "kind": "active_matlab_source",
+      "sha256": "393ffaf9d03e51d3d87f8ce4be2dd4779214fda2e2e3774905c0f7d241d4a895",
+      "source_sha256": "393ffaf9d03e51d3d87f8ce4be2dd4779214fda2e2e3774905c0f7d241d4a895",
+      "exact_copy": true,
+      "size_bytes": 9754
+    },
+    {
+      "path": "env/compute_all_arm_outcomes.m",
+      "kind": "active_matlab_source",
+      "sha256": "d01117c2d0ca110809f375e0e723b468735a66b13768a1189d8d0b67c077e407",
+      "source_sha256": "d01117c2d0ca110809f375e0e723b468735a66b13768a1189d8d0b67c077e407",
+      "exact_copy": true,
+      "size_bytes": 4474
+    },
+    {
+      "path": "env/compute_reward.m",
+      "kind": "active_matlab_source",
+      "sha256": "b2eaad5a914cc3cf9af3b68fd1940cd2a7cf3b66445dfe9f4d4424f926d0b70c",
+      "source_sha256": "b2eaad5a914cc3cf9af3b68fd1940cd2a7cf3b66445dfe9f4d4424f926d0b70c",
+      "exact_copy": true,
+      "size_bytes": 810
+    },
+    {
+      "path": "env/generate_context_pool.m",
+      "kind": "active_matlab_source",
+      "sha256": "8e014e4d722be7d2f54a039a43f9cb4e34f9e3722ee04f59d4ce0fe1dd7e4df3",
+      "source_sha256": "8e014e4d722be7d2f54a039a43f9cb4e34f9e3722ee04f59d4ce0fe1dd7e4df3",
+      "exact_copy": true,
+      "size_bytes": 521
+    },
+    {
+      "path": "env/generate_environment.m",
+      "kind": "active_matlab_source",
+      "sha256": "fc5d962fc41bd42c3b57d2ac6e75f4c8b8d7ba05d437487384c5386246e045b9",
+      "source_sha256": "fc5d962fc41bd42c3b57d2ac6e75f4c8b8d7ba05d437487384c5386246e045b9",
+      "exact_copy": true,
+      "size_bytes": 13279
+    },
+    {
+      "path": "experts/build_generic_experts.m",
+      "kind": "active_matlab_source",
+      "sha256": "6dafcd3707db54e1e1af771ed5a628bc91ede142faec69983b10f0c850348a11",
+      "source_sha256": "6dafcd3707db54e1e1af771ed5a628bc91ede142faec69983b10f0c850348a11",
+      "exact_copy": true,
+      "size_bytes": 2453
+    },
+    {
+      "path": "experts/build_pact_experts.m",
+      "kind": "active_matlab_source",
+      "sha256": "a4effc3c2e046ff5f304a3381e484b89630546bcde555c55ab6d674dc0d0c575",
+      "source_sha256": "a4effc3c2e046ff5f304a3381e484b89630546bcde555c55ab6d674dc0d0c575",
+      "exact_copy": true,
+      "size_bytes": 2968
+    },
+    {
+      "path": "experts/build_partition_experts.m",
+      "kind": "active_matlab_source",
+      "sha256": "f977b04426b5e98a755ece67c5af130e075b2a855aca4b1af8a5d8850ae2d3fe",
+      "source_sha256": "f977b04426b5e98a755ece67c5af130e075b2a855aca4b1af8a5d8850ae2d3fe",
+      "exact_copy": true,
+      "size_bytes": 3422
+    },
+    {
+      "path": "experts/evaluate_pact_experts.m",
+      "kind": "active_matlab_source",
+      "sha256": "19e10ca471b3240a8d556a4d4454d37c6a12a437f8257d7995361eae50fb801a",
+      "source_sha256": "19e10ca471b3240a8d556a4d4454d37c6a12a437f8257d7995361eae50fb801a",
+      "exact_copy": true,
+      "size_bytes": 1205
+    },
+    {
+      "path": "experts/evaluate_partition_experts.m",
+      "kind": "active_matlab_source",
+      "sha256": "c43d4508f04e97f57b5f56fd67ca881163474f2c78703e6340fbf29df995ed40",
+      "source_sha256": "c43d4508f04e97f57b5f56fd67ca881163474f2c78703e6340fbf29df995ed40",
+      "exact_copy": true,
+      "size_bytes": 3023
+    },
+    {
+      "path": "experts/evaluate_policy_experts.m",
+      "kind": "active_matlab_source",
+      "sha256": "c267ae540cbaf9dcf70501ec87fee87b9abd8c5a0a31a2bdeb678d65aa680900",
+      "source_sha256": "c267ae540cbaf9dcf70501ec87fee87b9abd8c5a0a31a2bdeb678d65aa680900",
+      "exact_copy": true,
+      "size_bytes": 2614
+    },
+    {
+      "path": "experts/get_policy_expert_config.m",
+      "kind": "active_matlab_source",
+      "sha256": "f241a0292343571cf67da3559648464edc6fd3763b26886b87d3be2856681917",
+      "source_sha256": "f241a0292343571cf67da3559648464edc6fd3763b26886b87d3be2856681917",
+      "exact_copy": true,
+      "size_bytes": 1038
+    },
+    {
+      "path": "learners/bc_detect_exploration.m",
+      "kind": "active_matlab_source",
+      "sha256": "3d2536f1e1647c63265aeab482b8f8cb468133b8dfc210e4c680aaafd4affd4b",
+      "source_sha256": "3d2536f1e1647c63265aeab482b8f8cb468133b8dfc210e4c680aaafd4affd4b",
+      "exact_copy": true,
+      "size_bytes": 1386
+    },
+    {
+      "path": "learners/bc_effective_expert_loss.m",
+      "kind": "active_matlab_source",
+      "sha256": "94bf23df45023b17502831732873f17486b5be634f285193ed5e406bdbe62ce8",
+      "source_sha256": "94bf23df45023b17502831732873f17486b5be634f285193ed5e406bdbe62ce8",
+      "exact_copy": true,
+      "size_bytes": 1981
+    },
+    {
+      "path": "learners/bc_expert_mixture.m",
+      "kind": "active_matlab_source",
+      "sha256": "cbb3f28916b92b9b8a182e354e3dd75fda3f616723fcc8adc4c9e21b92f68907",
+      "source_sha256": "cbb3f28916b92b9b8a182e354e3dd75fda3f616723fcc8adc4c9e21b92f68907",
+      "exact_copy": true,
+      "size_bytes": 2455
+    },
+    {
+      "path": "learners/bc_expert_prediction_risk.m",
+      "kind": "active_matlab_source",
+      "sha256": "1c540ebac2e460d0a326a95ff3d2c9b63c3632b8f0a924dbc8f88316c54fb142",
+      "source_sha256": "1c540ebac2e460d0a326a95ff3d2c9b63c3632b8f0a924dbc8f88316c54fb142",
+      "exact_copy": true,
+      "size_bytes": 1269
+    },
+    {
+      "path": "learners/bc_nonuniform_exploration.m",
+      "kind": "active_matlab_source",
+      "sha256": "e8fb8165eb94fbdadd83a08e8504e46eb7972b01c94292382bea65176ff06bed",
+      "source_sha256": "e8fb8165eb94fbdadd83a08e8504e46eb7972b01c94292382bea65176ff06bed",
+      "exact_copy": true,
+      "size_bytes": 1823
+    },
+    {
+      "path": "learners/compute_lc_sigma.m",
+      "kind": "active_matlab_source",
+      "sha256": "9e2015c2bedc93e083b1945066f0497a58e44ef4c8a0f118906c5b6cbe890a60",
+      "source_sha256": "9e2015c2bedc93e083b1945066f0497a58e44ef4c8a0f118906c5b6cbe890a60",
+      "exact_copy": true,
+      "size_bytes": 1423
+    },
+    {
+      "path": "learners/dynamic_lc_base_select.m",
+      "kind": "active_matlab_source",
+      "sha256": "b8da0e801930f11fff89ff34b4faacb1c0d7ecb601fd38eca257fa11b25cc9c7",
+      "source_sha256": "b8da0e801930f11fff89ff34b4faacb1c0d7ecb601fd38eca257fa11b25cc9c7",
+      "exact_copy": true,
+      "size_bytes": 1382
+    },
+    {
+      "path": "learners/dynamic_lc_base_update.m",
+      "kind": "active_matlab_source",
+      "sha256": "764c4b9ea5006ecff3246467b4d2c94a7e1dc6601b06a23de91b7b86e73d8230",
+      "source_sha256": "764c4b9ea5006ecff3246467b4d2c94a7e1dc6601b06a23de91b7b86e73d8230",
+      "exact_copy": true,
+      "size_bytes": 1230
+    },
+    {
+      "path": "learners/dynamic_pact_prediction_risk.m",
+      "kind": "active_matlab_source",
+      "sha256": "a178fe84f31b788be637fa032df826815526c039508e8e0b9342ee7432e694dd",
+      "source_sha256": "a178fe84f31b788be637fa032df826815526c039508e8e0b9342ee7432e694dd",
+      "exact_copy": true,
+      "size_bytes": 1556
+    },
+    {
+      "path": "learners/dynamic_pact_select.m",
+      "kind": "active_matlab_source",
+      "sha256": "79567745048c8b097bbd1fdfd585b30c30f57e8bf5381383c814167a6a78b6c8",
+      "source_sha256": "79567745048c8b097bbd1fdfd585b30c30f57e8bf5381383c814167a6a78b6c8",
+      "exact_copy": true,
+      "size_bytes": 6262
+    },
+    {
+      "path": "learners/dynamic_pact_update.m",
+      "kind": "active_matlab_source",
+      "sha256": "a28219a30806086ed71d253112017e1dd7ab3eb34d66747457c2f7c19f734d15",
+      "source_sha256": "a28219a30806086ed71d253112017e1dd7ab3eb34d66747457c2f7c19f734d15",
+      "exact_copy": true,
+      "size_bytes": 2197
+    },
+    {
+      "path": "learners/exp4_mixture_policy.m",
+      "kind": "active_matlab_source",
+      "sha256": "9277485662ef05004c35271744644567262c7e210b163a0c20c3e7fb0f8527b0",
+      "source_sha256": "9277485662ef05004c35271744644567262c7e210b163a0c20c3e7fb0f8527b0",
+      "exact_copy": true,
+      "size_bytes": 1052
+    },
+    {
+      "path": "learners/init_learner.m",
+      "kind": "active_matlab_source",
+      "sha256": "7bdfabb109f8ab09346b7693f0afccca769978e60c28500a6dc1a09673a462cb",
+      "source_sha256": "7bdfabb109f8ab09346b7693f0afccca769978e60c28500a6dc1a09673a462cb",
+      "exact_copy": true,
+      "size_bytes": 13231
+    },
+    {
+      "path": "learners/init_local_linear_base.m",
+      "kind": "active_matlab_source",
+      "sha256": "80256edbc4fb9d938e0f7b1d62574b126a1ee737e6663914af51c57d04b26f4f",
+      "source_sha256": "80256edbc4fb9d938e0f7b1d62574b126a1ee737e6663914af51c57d04b26f4f",
+      "exact_copy": true,
+      "size_bytes": 1452
+    },
+    {
+      "path": "learners/lc_policy_from_context.m",
+      "kind": "active_matlab_source",
+      "sha256": "d0e141640482617a57bc9b2e70b74b4174bf6421217c63b792a4874ffb617dfd",
+      "source_sha256": "d0e141640482617a57bc9b2e70b74b4174bf6421217c63b792a4874ffb617dfd",
+      "exact_copy": true,
+      "size_bytes": 1110
+    },
+    {
+      "path": "learners/learner_select.m",
+      "kind": "active_matlab_source",
+      "sha256": "b51b1e7f648b4d92dd7787706621673792cdb57d2c7eee8aa4c687de549698b4",
+      "source_sha256": "b51b1e7f648b4d92dd7787706621673792cdb57d2c7eee8aa4c687de549698b4",
+      "exact_copy": true,
+      "size_bytes": 11733
+    },
+    {
+      "path": "learners/learner_update.m",
+      "kind": "active_matlab_source",
+      "sha256": "750daf796e83731984bb3ff22549510fbfa5be5ff711e3348f122ec093a41a69",
+      "source_sha256": "750daf796e83731984bb3ff22549510fbfa5be5ff711e3348f122ec093a41a69",
+      "exact_copy": true,
+      "size_bytes": 13211
+    },
+    {
+      "path": "learners/local_linear_policy.m",
+      "kind": "active_matlab_source",
+      "sha256": "d09401572f2af90e0c44e94f55401869a496efa8f736e9ba416beaf814b5b710",
+      "source_sha256": "d09401572f2af90e0c44e94f55401869a496efa8f736e9ba416beaf814b5b710",
+      "exact_copy": true,
+      "size_bytes": 2522
+    },
+    {
+      "path": "learners/local_linear_update.m",
+      "kind": "active_matlab_source",
+      "sha256": "d3bfdc609f43957cb4fd9baf89013c73d92723c32f61425c468d3f972ea27d57",
+      "source_sha256": "d3bfdc609f43957cb4fd9baf89013c73d92723c32f61425c468d3f972ea27d57",
+      "exact_copy": true,
+      "size_bytes": 1255
+    },
+    {
+      "path": "learners/prediction_risk_tilt_exploration.m",
+      "kind": "active_matlab_source",
+      "sha256": "ca8bd88f0ddf8b90de4926183b9e70190ee328b08e1fda70e9442a6ebb11cedd",
+      "source_sha256": "ca8bd88f0ddf8b90de4926183b9e70190ee328b08e1fda70e9442a6ebb11cedd",
+      "exact_copy": true,
+      "size_bytes": 1430
+    },
+    {
+      "path": "learners/project_policy_kl_hit_risk.m",
+      "kind": "active_matlab_source",
+      "sha256": "78eb79a25dcacc465a6499fc54bd665a5aeb35ca602edc0432ab7b875131e8de",
+      "source_sha256": "78eb79a25dcacc465a6499fc54bd665a5aeb35ca602edc0432ab7b875131e8de",
+      "exact_copy": true,
+      "size_bytes": 4151
+    },
+    {
+      "path": "metrics/compute_pair_metrics.m",
+      "kind": "active_matlab_source",
+      "sha256": "a74178f7906cc1a255d143946e6e1ed3e377afc7a815a5e50888e4f7f1852ff7",
+      "source_sha256": "a74178f7906cc1a255d143946e6e1ed3e377afc7a815a5e50888e4f7f1852ff7",
+      "exact_copy": true,
+      "size_bytes": 9568
+    },
+    {
+      "path": "plots/plot_attack_strength_crossover.m",
+      "kind": "active_matlab_source",
+      "sha256": "385fb933cac22a2ffcbf004da218f34ea4254537949f03bf28ff272ab5df621e",
+      "source_sha256": "385fb933cac22a2ffcbf004da218f34ea4254537949f03bf28ff272ab5df621e",
+      "exact_copy": true,
+      "size_bytes": 1212
+    },
+    {
+      "path": "plots/plot_communication_pareto.m",
+      "kind": "active_matlab_source",
+      "sha256": "f702c9d152ac40969eee3b48f474bbb5cd6912cbb4ffe8fab3d6b51d96807b41",
+      "source_sha256": "f702c9d152ac40969eee3b48f474bbb5cd6912cbb4ffe8fab3d6b51d96807b41",
+      "exact_copy": true,
+      "size_bytes": 1448
+    },
+    {
+      "path": "plots/plot_cumulative_communication.m",
+      "kind": "active_matlab_source",
+      "sha256": "3b63913c329fa328ff5391edeb06d91bfe79eed64a27fd5cd736c868b49041e4",
+      "source_sha256": "3b63913c329fa328ff5391edeb06d91bfe79eed64a27fd5cd736c868b49041e4",
+      "exact_copy": true,
+      "size_bytes": 1712
+    },
+    {
+      "path": "plots/plot_cumulative_communication_v2.m",
+      "kind": "active_matlab_source",
+      "sha256": "bc4b151d76b7fa311f54e0f334b2f640e0b496e929f7ae606adc872b0287f08c",
+      "source_sha256": "bc4b151d76b7fa311f54e0f334b2f640e0b496e929f7ae606adc872b0287f08c",
+      "exact_copy": true,
+      "size_bytes": 1483
+    },
+    {
+      "path": "plots/plot_dynamic_c5_heatmaps.m",
+      "kind": "active_matlab_source",
+      "sha256": "6378f586a9dab05a0000e157413250f77fb77505380d566ceca1a96914399980",
+      "source_sha256": "6378f586a9dab05a0000e157413250f77fb77505380d566ceca1a96914399980",
+      "exact_copy": true,
+      "size_bytes": 3154
+    },
+    {
+      "path": "plots/plot_dynamic_c5_master_allocation.m",
+      "kind": "active_matlab_source",
+      "sha256": "11698ae9023310c7bad41fed0636b6afa3127a6be69d1aff6af8f9c832bcd653",
+      "source_sha256": "11698ae9023310c7bad41fed0636b6afa3127a6be69d1aff6af8f9c832bcd653",
+      "exact_copy": true,
+      "size_bytes": 2727
+    },
+    {
+      "path": "plots/plot_dynamic_c6_performance.m",
+      "kind": "active_matlab_source",
+      "sha256": "6690161232094474440ab7431e21768558950cced08e8509b5c4c98f7d7d7c3e",
+      "source_sha256": "6690161232094474440ab7431e21768558950cced08e8509b5c4c98f7d7d7c3e",
+      "exact_copy": true,
+      "size_bytes": 2562
+    },
+    {
+      "path": "plots/plot_dynamic_c6_runtime.m",
+      "kind": "active_matlab_source",
+      "sha256": "12f8aff466e55a66e4432a03cbea0c2b09cd0aba0d7d5d4828e6972a17fa7f4e",
+      "source_sha256": "12f8aff466e55a66e4432a03cbea0c2b09cd0aba0d7d5d4828e6972a17fa7f4e",
+      "exact_copy": true,
+      "size_bytes": 2241
+    },
+    {
+      "path": "plots/plot_dynamic_communication.m",
+      "kind": "active_matlab_source",
+      "sha256": "b38b92fe79f7a2b1d9b33270b3b8c723d8766ed846f015420d287a0a9791e10b",
+      "source_sha256": "b38b92fe79f7a2b1d9b33270b3b8c723d8766ed846f015420d287a0a9791e10b",
+      "exact_copy": true,
+      "size_bytes": 1133
+    },
+    {
+      "path": "plots/plot_dynamic_hit_c3_heatmaps.m",
+      "kind": "active_matlab_source",
+      "sha256": "fe4a96a712510778fa1892b75ac60c8ea75bf460812d0f95841c2e6dab760e76",
+      "source_sha256": "fe4a96a712510778fa1892b75ac60c8ea75bf460812d0f95841c2e6dab760e76",
+      "exact_copy": true,
+      "size_bytes": 1510
+    },
+    {
+      "path": "plots/plot_dynamic_hit_c3_pareto.m",
+      "kind": "active_matlab_source",
+      "sha256": "2256c6d775aea4eb77249ed91e84ba0e3c09a95150ba1dbf53305c75b57885f5",
+      "source_sha256": "2256c6d775aea4eb77249ed91e84ba0e3c09a95150ba1dbf53305c75b57885f5",
+      "exact_copy": true,
+      "size_bytes": 979
+    },
+    {
+      "path": "plots/plot_dynamic_hit_pareto.m",
+      "kind": "active_matlab_source",
+      "sha256": "074b820932f6bd06952555f0f34f4d0608b908d82824196fd0892a7b623cc533",
+      "source_sha256": "074b820932f6bd06952555f0f34f4d0608b908d82824196fd0892a7b623cc533",
+      "exact_copy": true,
+      "size_bytes": 2272
+    },
+    {
+      "path": "plots/plot_dynamic_model_class_probe.m",
+      "kind": "active_matlab_source",
+      "sha256": "4ea9aa2dccdff490d228b781c35389296478e2883e82aa0e962f1577fa5a9384",
+      "source_sha256": "4ea9aa2dccdff490d228b781c35389296478e2883e82aa0e962f1577fa5a9384",
+      "exact_copy": true,
+      "size_bytes": 1879
+    },
+    {
+      "path": "plots/plot_dynamic_nonlinear.m",
+      "kind": "active_matlab_source",
+      "sha256": "8de607bdb73472f45f2ecffa8494ff7f81a1e9f61f6395f253db2d4ccf4eddc3",
+      "source_sha256": "8de607bdb73472f45f2ecffa8494ff7f81a1e9f61f6395f253db2d4ccf4eddc3",
+      "exact_copy": true,
+      "size_bytes": 847
+    },
+    {
+      "path": "plots/plot_dynamic_safe_cross_attacker.m",
+      "kind": "active_matlab_source",
+      "sha256": "f63a4f665cecac3ca786896aa0e8495a63ccb34b10d1e93566338c1b6ab165e1",
+      "source_sha256": "f63a4f665cecac3ca786896aa0e8495a63ccb34b10d1e93566338c1b6ab165e1",
+      "exact_copy": true,
+      "size_bytes": 2094
+    },
+    {
+      "path": "plots/plot_dynamic_safe_frontier.m",
+      "kind": "active_matlab_source",
+      "sha256": "8f28d2478a05658d837b9773e7d69f5f2161febfab1b6a363115b6650f4ff2ee",
+      "source_sha256": "8f28d2478a05658d837b9773e7d69f5f2161febfab1b6a363115b6650f4ff2ee",
+      "exact_copy": true,
+      "size_bytes": 1595
+    },
+    {
+      "path": "plots/plot_external_attacker_heatmap.m",
+      "kind": "active_matlab_source",
+      "sha256": "d9e4e93a7a494b01c2f84e108c3bf6ec945f8541cf2429965c00d6029b0d64ca",
+      "source_sha256": "d9e4e93a7a494b01c2f84e108c3bf6ec945f8541cf2429965c00d6029b0d64ca",
+      "exact_copy": true,
+      "size_bytes": 948
+    },
+    {
+      "path": "plots/plot_final_c2_cumulative.m",
+      "kind": "active_matlab_source",
+      "sha256": "f421e399dc85b69bc94fe339dc16ef781e9c2b0edd857b98d8e02e693e46bf0d",
+      "source_sha256": "f421e399dc85b69bc94fe339dc16ef781e9c2b0edd857b98d8e02e693e46bf0d",
+      "exact_copy": true,
+      "size_bytes": 4444
+    },
+    {
+      "path": "plots/plot_final_c2_endpoints.m",
+      "kind": "active_matlab_source",
+      "sha256": "8471cee4bb14856a870d2410bc1e46c2872ff66b97bd13f37d368bdee3a43e05",
+      "source_sha256": "8471cee4bb14856a870d2410bc1e46c2872ff66b97bd13f37d368bdee3a43e05",
+      "exact_copy": true,
+      "size_bytes": 4669
+    },
+    {
+      "path": "plots/plot_final_c3_heatmaps.m",
+      "kind": "active_matlab_source",
+      "sha256": "7ac6e02544554ad9cbcb66931ce6c8679e6d826c23462fe9480c9ebd0acb5e90",
+      "source_sha256": "7ac6e02544554ad9cbcb66931ce6c8679e6d826c23462fe9480c9ebd0acb5e90",
+      "exact_copy": true,
+      "size_bytes": 2847
+    },
+    {
+      "path": "plots/plot_final_c3_tradeoff.m",
+      "kind": "active_matlab_source",
+      "sha256": "6ef12546cc8bd346981b435a5ad150eb5b7c7e04a4df008766012ad7c2dc98a2",
+      "source_sha256": "6ef12546cc8bd346981b435a5ad150eb5b7c7e04a4df008766012ad7c2dc98a2",
+      "exact_copy": true,
+      "size_bytes": 2725
+    },
+    {
+      "path": "plots/plot_final_c4_ablation.m",
+      "kind": "active_matlab_source",
+      "sha256": "9361bfae958c9e618ef2664275fa0a9e485f7272456b8e39420d1ecc43dd4618",
+      "source_sha256": "9361bfae958c9e618ef2664275fa0a9e485f7272456b8e39420d1ecc43dd4618",
+      "exact_copy": true,
+      "size_bytes": 2676
+    },
+    {
+      "path": "plots/plot_goodput_risk_scatter.m",
+      "kind": "active_matlab_source",
+      "sha256": "f9f244dd9a29730245f317b8ccafebd90742a8c4248585d258f0beab0ca23589",
+      "source_sha256": "f9f244dd9a29730245f317b8ccafebd90742a8c4248585d258f0beab0ca23589",
+      "exact_copy": true,
+      "size_bytes": 1339
+    },
+    {
+      "path": "plots/plot_hit_risk_alignment.m",
+      "kind": "active_matlab_source",
+      "sha256": "9d29dc4fcbcfb4617348403641c6d80d4a940019b8ce3ad73dbfeed21ae35659",
+      "source_sha256": "9d29dc4fcbcfb4617348403641c6d80d4a940019b8ce3ad73dbfeed21ae35659",
+      "exact_copy": true,
+      "size_bytes": 1613
+    },
+    {
+      "path": "plots/plot_jsr_robustness.m",
+      "kind": "active_matlab_source",
+      "sha256": "8fa7fa5ffa200b5676f781c02bdaf00cfa56594acfd0d2166e9682ca87056357",
+      "source_sha256": "8fa7fa5ffa200b5676f781c02bdaf00cfa56594acfd0d2166e9682ca87056357",
+      "exact_copy": true,
+      "size_bytes": 1207
+    },
+    {
+      "path": "plots/plot_paper_c5_summary.m",
+      "kind": "active_matlab_source",
+      "sha256": "794f26fd31a9257e572b2c502e2114d78499b3eeaf6a80014799e43e574344a1",
+      "source_sha256": "794f26fd31a9257e572b2c502e2114d78499b3eeaf6a80014799e43e574344a1",
+      "exact_copy": true,
+      "size_bytes": 3772
+    },
+    {
+      "path": "plots/plot_paper_c6_summary.m",
+      "kind": "active_matlab_source",
+      "sha256": "ef5fe080bf9efd42cd03b2e998bd9c27684086f4502a9f5d12d2c46818aa8bba",
+      "source_sha256": "ef5fe080bf9efd42cd03b2e998bd9c27684086f4502a9f5d12d2c46818aa8bba",
+      "exact_copy": true,
+      "size_bytes": 2804
+    },
+    {
+      "path": "plots/plot_paper_model_selection.m",
+      "kind": "active_matlab_source",
+      "sha256": "478fdc09238c36885b65ad1f9c562fffdfa2a3e76ab1f402700555981e36be84",
+      "source_sha256": "478fdc09238c36885b65ad1f9c562fffdfa2a3e76ab1f402700555981e36be84",
+      "exact_copy": true,
+      "size_bytes": 2265
+    },
+    {
+      "path": "plots/plot_paper_safe_frontier.m",
+      "kind": "active_matlab_source",
+      "sha256": "a98bdd37160ca80277094dd775af0345217adc7b1a981ce07977be5616004f1c",
+      "source_sha256": "a98bdd37160ca80277094dd775af0345217adc7b1a981ce07977be5616004f1c",
+      "exact_copy": true,
+      "size_bytes": 1934
+    },
+    {
+      "path": "plots/plot_risk_decomposition.m",
+      "kind": "active_matlab_source",
+      "sha256": "ce85bf49ca1618015bc4b4d9c31e53bd10b8df64f34f3b11ff93f0a5acfa5662",
+      "source_sha256": "ce85bf49ca1618015bc4b4d9c31e53bd10b8df64f34f3b11ff93f0a5acfa5662",
+      "exact_copy": true,
+      "size_bytes": 629
+    },
+    {
+      "path": "plots/plot_scaling_results.m",
+      "kind": "active_matlab_source",
+      "sha256": "efdf262f0203c918589f8515d184fb1b1012553cd14bb63d45413b8f2428bcf6",
+      "source_sha256": "efdf262f0203c918589f8515d184fb1b1012553cd14bb63d45413b8f2428bcf6",
+      "exact_copy": true,
+      "size_bytes": 1677
+    },
+    {
+      "path": "policies/get_exploration_policy.m",
+      "kind": "active_matlab_source",
+      "sha256": "2c053a0c9ac683f4673c7c6e19ee064e6611255265aed2b1b75072562fd2ede7",
+      "source_sha256": "2c053a0c9ac683f4673c7c6e19ee064e6611255265aed2b1b75072562fd2ede7",
+      "exact_copy": true,
+      "size_bytes": 340
+    },
+    {
+      "path": "policies/tsallis_ftrl_policy.m",
+      "kind": "active_matlab_source",
+      "sha256": "52472e03cbb223c6cc7282cabffa24747e1265458893b2d4efd788cdc5eef140",
+      "source_sha256": "52472e03cbb223c6cc7282cabffa24747e1265458893b2d4efd788cdc5eef140",
+      "exact_copy": true,
+      "size_bytes": 1924
+    },
+    {
+      "path": "tables/build_communication_summary_row.m",
+      "kind": "active_matlab_source",
+      "sha256": "8d53fc17addca0cbcce3e7873fe8f0992def70128be8f47c57d94442ffbe76c6",
+      "source_sha256": "8d53fc17addca0cbcce3e7873fe8f0992def70128be8f47c57d94442ffbe76c6",
+      "exact_copy": true,
+      "size_bytes": 2078
+    },
+    {
+      "path": "tables/get_adversary_display_name.m",
+      "kind": "active_matlab_source",
+      "sha256": "950d18d19395054d33572f58021cb608aef37817b1632960ba5e47785048b7de",
+      "source_sha256": "950d18d19395054d33572f58021cb608aef37817b1632960ba5e47785048b7de",
+      "exact_copy": true,
+      "size_bytes": 644
+    },
+    {
+      "path": "tables/get_learner_display_name.m",
+      "kind": "active_matlab_source",
+      "sha256": "05b36834ea7e52ad04a1289ab2ecbff548ae1528c0b29a9ad6335133b36563c2",
+      "source_sha256": "05b36834ea7e52ad04a1289ab2ecbff548ae1528c0b29a9ad6335133b36563c2",
+      "exact_copy": true,
+      "size_bytes": 1266
+    },
+    {
+      "path": "tables/write_c5_latex.m",
+      "kind": "active_matlab_source",
+      "sha256": "cabf4894af7d59f57624788045341b8c890553052c631f8c8f408fddacb4088e",
+      "source_sha256": "cabf4894af7d59f57624788045341b8c890553052c631f8c8f408fddacb4088e",
+      "exact_copy": true,
+      "size_bytes": 1955
+    },
+    {
+      "path": "tables/write_c6_latex.m",
+      "kind": "active_matlab_source",
+      "sha256": "2a7b4ff624d749558119ff6bdf5bd8f79a31195f680f79c522eb5084fb6403e1",
+      "source_sha256": "2a7b4ff624d749558119ff6bdf5bd8f79a31195f680f79c522eb5084fb6403e1",
+      "exact_copy": true,
+      "size_bytes": 1547
+    },
+    {
+      "path": "tables/write_dynamic_validation_verdict.m",
+      "kind": "active_matlab_source",
+      "sha256": "c8a671294a9f6b171dcb2dd9a62dc9d6a4eb3fc736542ad594334b6aeb6ca7aa",
+      "source_sha256": "c8a671294a9f6b171dcb2dd9a62dc9d6a4eb3fc736542ad594334b6aeb6ca7aa",
+      "exact_copy": true,
+      "size_bytes": 4623
+    },
+    {
+      "path": "tables/write_final_report.m",
+      "kind": "active_matlab_source",
+      "sha256": "fdda5d9c7ccc1f9d33a09870f44f1d1b1bce382ea55af2eba07b9998d22f14a8",
+      "source_sha256": "fdda5d9c7ccc1f9d33a09870f44f1d1b1bce382ea55af2eba07b9998d22f14a8",
+      "exact_copy": true,
+      "size_bytes": 3089
+    },
+    {
+      "path": "tables/write_hit_risk_verdict.m",
+      "kind": "active_matlab_source",
+      "sha256": "34070d39e9c431daa109e398304efbda64b533102653eaa4170d39b1e16ed70b",
+      "source_sha256": "34070d39e9c431daa109e398304efbda64b533102653eaa4170d39b1e16ed70b",
+      "exact_copy": true,
+      "size_bytes": 3593
+    },
+    {
+      "path": "tables/write_model_latex.m",
+      "kind": "active_matlab_source",
+      "sha256": "c40f1d4f62305e067d98dc332a41e9bfb9c25bc65336dca57ebdade9e5b5f1ca",
+      "source_sha256": "c40f1d4f62305e067d98dc332a41e9bfb9c25bc65336dca57ebdade9e5b5f1ca",
+      "exact_copy": true,
+      "size_bytes": 1672
+    },
+    {
+      "path": "tables/write_table_bundle.m",
+      "kind": "active_matlab_source",
+      "sha256": "5f769c04ac47e45dc8c8b23b2aecd956b3e7b67452a63b119f6bfe06d6adcbe7",
+      "source_sha256": "5f769c04ac47e45dc8c8b23b2aecd956b3e7b67452a63b119f6bfe06d6adcbe7",
+      "exact_copy": true,
+      "size_bytes": 2214
+    },
+    {
+      "path": "experiments/communication/build_final_c1_table.m",
+      "kind": "active_experiment_source",
+      "sha256": "d56d6e599f0a265106b3ee98f6b62dc0846aa5817aa3dd2b1483c0c0ed283e23",
+      "source_sha256": "d56d6e599f0a265106b3ee98f6b62dc0846aa5817aa3dd2b1483c0c0ed283e23",
+      "exact_copy": true,
+      "size_bytes": 2454
+    },
+    {
+      "path": "experiments/communication/finalize_communication_results.m",
+      "kind": "active_experiment_source",
+      "sha256": "fb0e1d752186a27499e59640bd454782900d278293d72f36c1e63e632aa6ad52",
+      "source_sha256": "fb0e1d752186a27499e59640bd454782900d278293d72f36c1e63e632aa6ad52",
+      "exact_copy": true,
+      "size_bytes": 9556
+    },
+    {
+      "path": "experiments/communication/finalize_complete_communication_paper.m",
+      "kind": "active_experiment_source",
+      "sha256": "e931659894b6e1b28fd2b0295232c6112a2e398472b72d1a73f1a1a4b073ad68",
+      "source_sha256": "e931659894b6e1b28fd2b0295232c6112a2e398472b72d1a73f1a1a4b073ad68",
+      "exact_copy": true,
+      "size_bytes": 7249
+    },
+    {
+      "path": "experiments/communication/README.md",
+      "kind": "active_experiment_source",
+      "sha256": "52a8759c53b2ba07c1f7da71a5bbd90a30e6ac8c9a93115746e934ad09fa2796",
+      "source_sha256": "52a8759c53b2ba07c1f7da71a5bbd90a30e6ac8c9a93115746e934ad09fa2796",
+      "exact_copy": true,
+      "size_bytes": 447
+    },
+    {
+      "path": "experiments/communication/resolve_dynamic_safe_operating_point.m",
+      "kind": "active_experiment_source",
+      "sha256": "becb6731dd208164b5d0bbd24384e70b0f679795358c96225fd6bdab40ed0df9",
+      "source_sha256": "becb6731dd208164b5d0bbd24384e70b0f679795358c96225fd6bdab40ed0df9",
+      "exact_copy": true,
+      "size_bytes": 1718
+    },
+    {
+      "path": "experiments/communication/run_complete_communication_rebuild.m",
+      "kind": "active_experiment_source",
+      "sha256": "c2a3feca350c3344ffd6a5e20b9304b1992d6f8fcb47a16b25856ed9d1e021fc",
+      "source_sha256": "c2a3feca350c3344ffd6a5e20b9304b1992d6f8fcb47a16b25856ed9d1e021fc",
+      "exact_copy": true,
+      "size_bytes": 3458
+    },
+    {
+      "path": "experiments/communication/run_dynamic_hit_c3.m",
+      "kind": "active_experiment_source",
+      "sha256": "c93ee0b19b445b9fb84d2096bac2f341cc1485b5528edf0fa63cd7acbee88b22",
+      "source_sha256": "c93ee0b19b445b9fb84d2096bac2f341cc1485b5528edf0fa63cd7acbee88b22",
+      "exact_copy": true,
+      "size_bytes": 13173
+    },
+    {
+      "path": "experiments/communication/run_dynamic_hit_pareto_scan.m",
+      "kind": "active_experiment_source",
+      "sha256": "04d9bcfc7e0768b4e61e53b8a7db970074ee2a6ae4513b89f047cce046fefb23",
+      "source_sha256": "04d9bcfc7e0768b4e61e53b8a7db970074ee2a6ae4513b89f047cce046fefb23",
+      "exact_copy": true,
+      "size_bytes": 13461
+    },
+    {
+      "path": "experiments/communication/run_dynamic_model_class_probe.m",
+      "kind": "active_experiment_source",
+      "sha256": "ea21ab24fc64d72fa15ea7579f41bb1b9b1471d3ed7cc0efacbdc4683bb50350",
+      "source_sha256": "ea21ab24fc64d72fa15ea7579f41bb1b9b1471d3ed7cc0efacbdc4683bb50350",
+      "exact_copy": true,
+      "size_bytes": 6642
+    },
+    {
+      "path": "experiments/communication/run_dynamic_pact_validation.m",
+      "kind": "active_experiment_source",
+      "sha256": "42327a34991428f0ea03850023ea0f3faaa9cafebbef823f38284495f3bdf92a",
+      "source_sha256": "42327a34991428f0ea03850023ea0f3faaa9cafebbef823f38284495f3bdf92a",
+      "exact_copy": true,
+      "size_bytes": 9209
+    },
+    {
+      "path": "experiments/communication/run_dynamic_safe_c5.m",
+      "kind": "active_experiment_source",
+      "sha256": "c159dee1e3f7b78b49d3b1403e72782e8f2569f3a3593822962f6492e18546c0",
+      "source_sha256": "c159dee1e3f7b78b49d3b1403e72782e8f2569f3a3593822962f6492e18546c0",
+      "exact_copy": true,
+      "size_bytes": 8893
+    },
+    {
+      "path": "experiments/communication/run_dynamic_safe_c6.m",
+      "kind": "active_experiment_source",
+      "sha256": "b5c917d132650d036bbc8fe461fd5198126eb0afed88a1219f74b96d1f304d85",
+      "source_sha256": "b5c917d132650d036bbc8fe461fd5198126eb0afed88a1219f74b96d1f304d85",
+      "exact_copy": true,
+      "size_bytes": 6288
+    },
+    {
+      "path": "experiments/communication/run_dynamic_safe_projection_scan.m",
+      "kind": "active_experiment_source",
+      "sha256": "95de358b1e8454a549f56ee99d284b2cea63f3da2236373f3b3f988c4eeb836b",
+      "source_sha256": "95de358b1e8454a549f56ee99d284b2cea63f3da2236373f3b3f988c4eeb836b",
+      "exact_copy": true,
+      "size_bytes": 10482
+    },
+    {
+      "path": "experiments/communication/run_final_c2.m",
+      "kind": "active_experiment_source",
+      "sha256": "c05a5fee9fd4aa51318c270d31322209ff16e38d51a63bbdd45ae84a53fb3da1",
+      "source_sha256": "c05a5fee9fd4aa51318c270d31322209ff16e38d51a63bbdd45ae84a53fb3da1",
+      "exact_copy": true,
+      "size_bytes": 4281
+    },
+    {
+      "path": "experiments/communication/run_final_c3.m",
+      "kind": "active_experiment_source",
+      "sha256": "b1a5fb59ea24356c160dfc820e5178027835ac8aa6996de285b422c0b1094916",
+      "source_sha256": "b1a5fb59ea24356c160dfc820e5178027835ac8aa6996de285b422c0b1094916",
+      "exact_copy": true,
+      "size_bytes": 4429
+    },
+    {
+      "path": "experiments/communication/run_final_c4.m",
+      "kind": "active_experiment_source",
+      "sha256": "078ca51f49d93b0ad5d2497242317020c393bc428767bb4d2e509b46bfe0fc05",
+      "source_sha256": "078ca51f49d93b0ad5d2497242317020c393bc428767bb4d2e509b46bfe0fc05",
+      "exact_copy": true,
+      "size_bytes": 4283
+    },
+    {
+      "path": "experiments/communication/run_final_communication_stage.m",
+      "kind": "active_experiment_source",
+      "sha256": "2f809d1463269a63ff5776b39f87278ed6d4ecce8e7fa566bc53e0869e9ad7d5",
+      "source_sha256": "2f809d1463269a63ff5776b39f87278ed6d4ecce8e7fa566bc53e0869e9ad7d5",
+      "exact_copy": true,
+      "size_bytes": 1058
+    },
+    {
+      "path": "experiments/communication/run_hit_risk_alignment_rerun.m",
+      "kind": "active_experiment_source",
+      "sha256": "3f890b3b31fa8a1e14b23637a20e4d1024d380b322ba4947b2498177a7020edd",
+      "source_sha256": "3f890b3b31fa8a1e14b23637a20e4d1024d380b322ba4947b2498177a7020edd",
+      "exact_copy": true,
+      "size_bytes": 7477
+    },
+    {
+      "path": "experiments/communication/run_model_mismatch_pipeline.m",
+      "kind": "active_experiment_source",
+      "sha256": "f4ed7ac8064bdd00330fd650d948c6d9129d09f38edcc4b1dd2bb425e6841844",
+      "source_sha256": "f4ed7ac8064bdd00330fd650d948c6d9129d09f38edcc4b1dd2bb425e6841844",
+      "exact_copy": true,
+      "size_bytes": 645
+    },
+    {
+      "path": "experiments/communication/run_model_mismatch_preflight.m",
+      "kind": "active_experiment_source",
+      "sha256": "9e10c529ff7d50d8d4b1fceadb053811128fd69c06f6ce49c92ca43ab38e7269",
+      "source_sha256": "9e10c529ff7d50d8d4b1fceadb053811128fd69c06f6ce49c92ca43ab38e7269",
+      "exact_copy": true,
+      "size_bytes": 5121
+    },
+    {
+      "path": "experiments/communication/run_pact_afh_communication_module.m",
+      "kind": "active_experiment_source",
+      "sha256": "016994f0330a0ece3477f4ee63d996358e6ad58726904a9e60af82416ac451f7",
+      "source_sha256": "016994f0330a0ece3477f4ee63d996358e6ad58726904a9e60af82416ac451f7",
+      "exact_copy": true,
+      "size_bytes": 17547
+    },
+    {
+      "path": "experiments/communication/run_pact_afh_communication_suite.m",
+      "kind": "active_experiment_source",
+      "sha256": "3e2474d0a95dbf61cf53f04cbab9e985147453143b91bbea9580d99341668bc5",
+      "source_sha256": "3e2474d0a95dbf61cf53f04cbab9e985147453143b91bbea9580d99341668bc5",
+      "exact_copy": true,
+      "size_bytes": 240
+    },
+    {
+      "path": "tests/current/test_attack_inclusion_probability_exact.m",
+      "kind": "current_test",
+      "sha256": "f36041523aec9720e7f16e59c0efd1b3fe13bf0984157a58d5357fe6febdb4bc",
+      "source_sha256": "f36041523aec9720e7f16e59c0efd1b3fe13bf0984157a58d5357fe6febdb4bc",
+      "exact_copy": true,
+      "size_bytes": 984
+    },
+    {
+      "path": "tests/current/test_bc_dual_channel_exact.m",
+      "kind": "current_test",
+      "sha256": "bef52682960d017cd96957690b18d60a98218730a7d0282d311a4f47ad5c5f06",
+      "source_sha256": "bef52682960d017cd96957690b18d60a98218730a7d0282d311a4f47ad5c5f06",
+      "exact_copy": true,
+      "size_bytes": 4185
+    },
+    {
+      "path": "tests/current/test_checkpoint_resume_v2.m",
+      "kind": "current_test",
+      "sha256": "c18be6152ac6b4fb96ab9acc7a94a79fb6a957b0c8d9e7339e995254236bf64b",
+      "source_sha256": "c18be6152ac6b4fb96ab9acc7a94a79fb6a957b0c8d9e7339e995254236bf64b",
+      "exact_copy": true,
+      "size_bytes": 1740
+    },
+    {
+      "path": "tests/current/test_communication_suite_smoke.m",
+      "kind": "current_test",
+      "sha256": "109c6ca1c7221e8492fdfe75e331dd65f8626ebbaa274851b218151b2c3a9900",
+      "source_sha256": "109c6ca1c7221e8492fdfe75e331dd65f8626ebbaa274851b218151b2c3a9900",
+      "exact_copy": true,
+      "size_bytes": 606
+    },
+    {
+      "path": "tests/current/test_complete_rebuild_smoke.m",
+      "kind": "current_test",
+      "sha256": "a2dec60cb925ae8b4155031e0c080a34b96a0f96ec52e307b79af8252df565d6",
+      "source_sha256": "a2dec60cb925ae8b4155031e0c080a34b96a0f96ec52e307b79af8252df565d6",
+      "exact_copy": true,
+      "size_bytes": 692
+    },
+    {
+      "path": "tests/current/test_dynamic_c5_c6_smoke.m",
+      "kind": "current_test",
+      "sha256": "640d864fde41037946a12fc0216dff2406e302e4290916c6cab2ec1e6f6d5273",
+      "source_sha256": "640d864fde41037946a12fc0216dff2406e302e4290916c6cab2ec1e6f6d5273",
+      "exact_copy": true,
+      "size_bytes": 679
+    },
+    {
+      "path": "tests/current/test_dynamic_hit_pareto_c3_smoke.m",
+      "kind": "current_test",
+      "sha256": "06c9b5545586cb4d18d0bcf30e7ffb10f055b0aa87485f05c65107b9070124d3",
+      "source_sha256": "06c9b5545586cb4d18d0bcf30e7ffb10f055b0aa87485f05c65107b9070124d3",
+      "exact_copy": true,
+      "size_bytes": 566
+    },
+    {
+      "path": "tests/current/test_dynamic_nonlinear_c5_smoke.m",
+      "kind": "current_test",
+      "sha256": "b1edc2a5b8c8131efa05368811915cd31f5ca8a79b93f44608f8cf2f3355cb16",
+      "source_sha256": "b1edc2a5b8c8131efa05368811915cd31f5ca8a79b93f44608f8cf2f3355cb16",
+      "exact_copy": true,
+      "size_bytes": 928
+    },
+    {
+      "path": "tests/current/test_dynamic_pact_exact.m",
+      "kind": "current_test",
+      "sha256": "f971629dd7cdffa6b24cf7dd707864eed0c252b38125d5795a71d1b5b960a58f",
+      "source_sha256": "f971629dd7cdffa6b24cf7dd707864eed0c252b38125d5795a71d1b5b960a58f",
+      "exact_copy": true,
+      "size_bytes": 1974
+    },
+    {
+      "path": "tests/current/test_dynamic_pact_smoke.m",
+      "kind": "current_test",
+      "sha256": "7715e7b1fecf664f571fa46f653d4703d334be63c683b10909d4216d69157d70",
+      "source_sha256": "7715e7b1fecf664f571fa46f653d4703d334be63c683b10909d4216d69157d70",
+      "exact_copy": true,
+      "size_bytes": 1186
+    },
+    {
+      "path": "tests/current/test_dynamic_safe_projection_smoke.m",
+      "kind": "current_test",
+      "sha256": "7c2f543ae612526e5852f2a1a3e7eb03f195eb9aa0d98c6bf379ec82bfbdc9f9",
+      "source_sha256": "7c2f543ae612526e5852f2a1a3e7eb03f195eb9aa0d98c6bf379ec82bfbdc9f9",
+      "exact_copy": true,
+      "size_bytes": 506
+    },
+    {
+      "path": "tests/current/test_final_paper_pack.m",
+      "kind": "current_test",
+      "sha256": "d77ad0a02aca12fbe44e59e4ad8f0121090b0177ee538c72accff69158b87214",
+      "source_sha256": "d77ad0a02aca12fbe44e59e4ad8f0121090b0177ee538c72accff69158b87214",
+      "exact_copy": true,
+      "size_bytes": 854
+    },
+    {
+      "path": "tests/current/test_fixed_size_attack_sampler.m",
+      "kind": "current_test",
+      "sha256": "5998080105de5be1cb0972f69d5b3b3b7dce7f2bf6a2eda4622794e7537bae46",
+      "source_sha256": "5998080105de5be1cb0972f69d5b3b3b7dce7f2bf6a2eda4622794e7537bae46",
+      "exact_copy": true,
+      "size_bytes": 1261
+    },
+    {
+      "path": "tests/current/test_hit_risk_alignment_smoke.m",
+      "kind": "current_test",
+      "sha256": "397063afa7daac9e8b8856f9c448a773fcbc7707d55b7d9870173ef3c33bfe8e",
+      "source_sha256": "397063afa7daac9e8b8856f9c448a773fcbc7707d55b7d9870173ef3c33bfe8e",
+      "exact_copy": true,
+      "size_bytes": 768
+    },
+    {
+      "path": "tests/current/test_hybrid_expert_bank_v2.m",
+      "kind": "current_test",
+      "sha256": "c7fea5099f9cafc4b5ae7f13e46b4f6db7d412f9b3f658d4ffac92d1611087f4",
+      "source_sha256": "c7fea5099f9cafc4b5ae7f13e46b4f6db7d412f9b3f658d4ffac92d1611087f4",
+      "exact_copy": true,
+      "size_bytes": 647
+    },
+    {
+      "path": "tests/current/test_kl_hit_risk_projection_exact.m",
+      "kind": "current_test",
+      "sha256": "0f605bc36e9bf81b0552933221be363aa173ea0777f45d26f0779d9838eb3deb",
+      "source_sha256": "0f605bc36e9bf81b0552933221be363aa173ea0777f45d26f0779d9838eb3deb",
+      "exact_copy": true,
+      "size_bytes": 789
+    },
+    {
+      "path": "tests/current/test_model_diagnostics_smoke.m",
+      "kind": "current_test",
+      "sha256": "4535731015a9aa078eee2ea109969cb92793937f56bb18109ccd288548cf14b8",
+      "source_sha256": "4535731015a9aa078eee2ea109969cb92793937f56bb18109ccd288548cf14b8",
+      "exact_copy": true,
+      "size_bytes": 541
+    },
+    {
+      "path": "tests/current/test_model_mismatch_preflight_smoke.m",
+      "kind": "current_test",
+      "sha256": "2aedd3fd25f0d60e8e121d08cee9b870ed5dc6974f4c1255269e28de7facafce",
+      "source_sha256": "2aedd3fd25f0d60e8e121d08cee9b870ed5dc6974f4c1255269e28de7facafce",
+      "exact_copy": true,
+      "size_bytes": 964
+    },
+    {
+      "path": "tests/current/test_reward_alignment_v2.m",
+      "kind": "current_test",
+      "sha256": "82f10dee471cecacf0e8d48330aca9c0a0aa3e35c3442ab7f28961ba4e53b9f8",
+      "source_sha256": "82f10dee471cecacf0e8d48330aca9c0a0aa3e35c3442ab7f28961ba4e53b9f8",
+      "exact_copy": true,
+      "size_bytes": 728
+    },
+    {
+      "path": "setup_paths.m",
+      "kind": "root_entrypoint",
+      "sha256": "cd3e5a178e81c642973309a6380ea0bd330a6b1970c4efd1e53073deb5aac419",
+      "source_sha256": "cd3e5a178e81c642973309a6380ea0bd330a6b1970c4efd1e53073deb5aac419",
+      "exact_copy": true,
+      "size_bytes": 799
+    },
+    {
+      "path": "results/paper_complete/full/COMPLETE_PAPER_MANIFEST.md",
+      "kind": "paper_result_manifest",
+      "sha256": "83adf843186d6f434eaa0c61f9f8cbb6c5bcd547ab4d7e19026d7c22732f472e",
+      "source_sha256": "83adf843186d6f434eaa0c61f9f8cbb6c5bcd547ab4d7e19026d7c22732f472e",
+      "exact_copy": true,
+      "size_bytes": 511
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C2_endpoint_tradeoff.pdf",
+      "kind": "paper_facing_artifact",
+      "sha256": "4ac7b6998e003372695a7d9a66f9ba035f2cf6a1c107ab8e8815e792c67a63c3",
+      "source_sha256": "4ac7b6998e003372695a7d9a66f9ba035f2cf6a1c107ab8e8815e792c67a63c3",
+      "exact_copy": true,
+      "size_bytes": 7576
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C2_endpoint_tradeoff.png",
+      "kind": "paper_facing_artifact",
+      "sha256": "e0846db05d62a0657f9b2d6908a8061e267b9ecec9723661ce3ea98dfb0e7580",
+      "source_sha256": "e0846db05d62a0657f9b2d6908a8061e267b9ecec9723661ce3ea98dfb0e7580",
+      "exact_copy": true,
+      "size_bytes": 103356
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C2_running_performance.pdf",
+      "kind": "paper_facing_artifact",
+      "sha256": "9ae8096447625b9bc627b2db5a8bad70bc773defdf45061478090a7b05602629",
+      "source_sha256": "9ae8096447625b9bc627b2db5a8bad70bc773defdf45061478090a7b05602629",
+      "exact_copy": true,
+      "size_bytes": 1240610
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C2_running_performance.png",
+      "kind": "paper_facing_artifact",
+      "sha256": "bc24f275f87789c83d97e0b3ab3f517b2355906e332ce811333dacbf3efb365a",
+      "source_sha256": "bc24f275f87789c83d97e0b3ab3f517b2355906e332ce811333dacbf3efb365a",
+      "exact_copy": true,
+      "size_bytes": 192432
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C3_cross_attacker_heatmaps.pdf",
+      "kind": "paper_facing_artifact",
+      "sha256": "38afc4cd742822f72b18a9a685a1d0c4ae3137fe2233369cd3a09dd50e82ab4e",
+      "source_sha256": "38afc4cd742822f72b18a9a685a1d0c4ae3137fe2233369cd3a09dd50e82ab4e",
+      "exact_copy": true,
+      "size_bytes": 72759
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C3_cross_attacker_heatmaps.png",
+      "kind": "paper_facing_artifact",
+      "sha256": "e4a914f1015f4f44da0334bbff188ab2065f42698da744630db2119361552890",
+      "source_sha256": "e4a914f1015f4f44da0334bbff188ab2065f42698da744630db2119361552890",
+      "exact_copy": true,
+      "size_bytes": 129746
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C3_cross_attacker_tradeoff.pdf",
+      "kind": "paper_facing_artifact",
+      "sha256": "6e0252655959861d074fb4d05ec6e76abe0d93d53fd0079bbc2c951b20c34fd8",
+      "source_sha256": "6e0252655959861d074fb4d05ec6e76abe0d93d53fd0079bbc2c951b20c34fd8",
+      "exact_copy": true,
+      "size_bytes": 10367
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C3_cross_attacker_tradeoff.png",
+      "kind": "paper_facing_artifact",
+      "sha256": "ebd2126ae7e4fff80ca9be68c2fda653611219d65c2698a643210a331df8e136",
+      "source_sha256": "ebd2126ae7e4fff80ca9be68c2fda653611219d65c2698a643210a331df8e136",
+      "exact_copy": true,
+      "size_bytes": 188337
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C4_mechanism_ablation.pdf",
+      "kind": "paper_facing_artifact",
+      "sha256": "d014e25249de64f40ed866a2d8257a5fd52529ad441e5765ad07edd6e87f15e0",
+      "source_sha256": "d014e25249de64f40ed866a2d8257a5fd52529ad441e5765ad07edd6e87f15e0",
+      "exact_copy": true,
+      "size_bytes": 9800
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C4_mechanism_ablation.png",
+      "kind": "paper_facing_artifact",
+      "sha256": "718bd879995b696b02aaf7f856c9fb2fca8ea05d719e0acd97cbd487af183c77",
+      "source_sha256": "718bd879995b696b02aaf7f856c9fb2fca8ea05d719e0acd97cbd487af183c77",
+      "exact_copy": true,
+      "size_bytes": 141266
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C4b_model_selection.png",
+      "kind": "paper_facing_artifact",
+      "sha256": "3406354ccf3ffd29ee9bd4875ac9ecffc146d7b3b2c3f954863680ecab1aa53a",
+      "source_sha256": "3406354ccf3ffd29ee9bd4875ac9ecffc146d7b3b2c3f954863680ecab1aa53a",
+      "exact_copy": true,
+      "size_bytes": 108119
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C5_regime_summary.png",
+      "kind": "paper_facing_artifact",
+      "sha256": "7e3b4eb1d011b67ddd1d6199c5a79e11d80a902dfaa58240c44e54dad892d517",
+      "source_sha256": "7e3b4eb1d011b67ddd1d6199c5a79e11d80a902dfaa58240c44e54dad892d517",
+      "exact_copy": true,
+      "size_bytes": 187749
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_C6_scaling.png",
+      "kind": "paper_facing_artifact",
+      "sha256": "833034afeb054813bb26f664e6b893643044afd38f1adea19c6a173b1f57384b",
+      "source_sha256": "833034afeb054813bb26f664e6b893643044afd38f1adea19c6a173b1f57384b",
+      "exact_copy": true,
+      "size_bytes": 248450
+    },
+    {
+      "path": "results/paper_complete/full/figures/Figure_S1_safe_frontier.png",
+      "kind": "paper_facing_artifact",
+      "sha256": "8de14849579f7da6965110305c1a884c95938616ff5baf5e4476f5d4aac6d043",
+      "source_sha256": "8de14849579f7da6965110305c1a884c95938616ff5baf5e4476f5d4aac6d043",
+      "exact_copy": true,
+      "size_bytes": 90572
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C1_system_parameters.csv",
+      "kind": "paper_facing_artifact",
+      "sha256": "fa46fc6f42d6d195ee7f5be811a7e3a911a925653b28ac733e4c2a160ade583c",
+      "source_sha256": "fa46fc6f42d6d195ee7f5be811a7e3a911a925653b28ac733e4c2a160ade583c",
+      "exact_copy": true,
+      "size_bytes": 936
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C1_system_parameters.tex",
+      "kind": "paper_facing_artifact",
+      "sha256": "0faa9ce617c835c594f675bd51a0b68beb2b02a0888bc44be8e6c1071526789d",
+      "source_sha256": "0faa9ce617c835c594f675bd51a0b68beb2b02a0888bc44be8e6c1071526789d",
+      "exact_copy": true,
+      "size_bytes": 1134
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C2_main_performance.csv",
+      "kind": "paper_facing_artifact",
+      "sha256": "4e1a3f7d3737e606cec564d0d76247f83b014ee6f20ceab0ce2f74d4b3636d05",
+      "source_sha256": "4e1a3f7d3737e606cec564d0d76247f83b014ee6f20ceab0ce2f74d4b3636d05",
+      "exact_copy": true,
+      "size_bytes": 3839
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C2_main_performance.tex",
+      "kind": "paper_facing_artifact",
+      "sha256": "5ab40f637fd0b1b8b9866a60ab5b1e06887f4e7b39784434b7ce38670af7763f",
+      "source_sha256": "5ab40f637fd0b1b8b9866a60ab5b1e06887f4e7b39784434b7ce38670af7763f",
+      "exact_copy": true,
+      "size_bytes": 3189
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C3_cross_attacker.csv",
+      "kind": "paper_facing_artifact",
+      "sha256": "7f3adbc8eca1416a740f7a1d901041ea7aec33338cf4f1fb1c0755d3000f3caa",
+      "source_sha256": "7f3adbc8eca1416a740f7a1d901041ea7aec33338cf4f1fb1c0755d3000f3caa",
+      "exact_copy": true,
+      "size_bytes": 12675
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C3_cross_attacker.tex",
+      "kind": "paper_facing_artifact",
+      "sha256": "e12f0b98b2c43c314f4329611d2e9fbbf73491290b6913b204a64858604476dc",
+      "source_sha256": "e12f0b98b2c43c314f4329611d2e9fbbf73491290b6913b204a64858604476dc",
+      "exact_copy": true,
+      "size_bytes": 9992
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C4_ablation.csv",
+      "kind": "paper_facing_artifact",
+      "sha256": "bda1b5c7279313199428416a60ff1950d897fa53d2dcc45b0400aaaf11000a61",
+      "source_sha256": "bda1b5c7279313199428416a60ff1950d897fa53d2dcc45b0400aaaf11000a61",
+      "exact_copy": true,
+      "size_bytes": 2864
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C4_ablation.tex",
+      "kind": "paper_facing_artifact",
+      "sha256": "5d5708fdf1508d9b99ea8d876dad4eda1595b7c6d7a427a0b715cb700e0c08a4",
+      "source_sha256": "5d5708fdf1508d9b99ea8d876dad4eda1595b7c6d7a427a0b715cb700e0c08a4",
+      "exact_copy": true,
+      "size_bytes": 2497
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C4b_model_selection_effects.csv",
+      "kind": "paper_facing_artifact",
+      "sha256": "ca14d1dcf1654eeb0acb9157b645a3fcc6ce0484b29615f7305fb01d129150d2",
+      "source_sha256": "ca14d1dcf1654eeb0acb9157b645a3fcc6ce0484b29615f7305fb01d129150d2",
+      "exact_copy": true,
+      "size_bytes": 420
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C4b_model_selection_effects.tex",
+      "kind": "paper_facing_artifact",
+      "sha256": "a7a2085a21eca7245707b51d46a3f6147c6cc4bc04eb5eaa6ecbd4bebb0aad18",
+      "source_sha256": "a7a2085a21eca7245707b51d46a3f6147c6cc4bc04eb5eaa6ecbd4bebb0aad18",
+      "exact_copy": true,
+      "size_bytes": 421
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C5_regime_robustness.csv",
+      "kind": "paper_facing_artifact",
+      "sha256": "1ac844fc682597807d87802630b3526d3ecaf877c3ca1436ecd558eedd048ffb",
+      "source_sha256": "1ac844fc682597807d87802630b3526d3ecaf877c3ca1436ecd558eedd048ffb",
+      "exact_copy": true,
+      "size_bytes": 16096
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C5_regime_robustness.tex",
+      "kind": "paper_facing_artifact",
+      "sha256": "2beb062f711837d4404df187d6bf7eb9c55c897289c12020a05c70ef2685976a",
+      "source_sha256": "2beb062f711837d4404df187d6bf7eb9c55c897289c12020a05c70ef2685976a",
+      "exact_copy": true,
+      "size_bytes": 13519
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C6_scaling.csv",
+      "kind": "paper_facing_artifact",
+      "sha256": "d26c05d62819b9cad9d33a7a9ac722189a5c3a5127ee3cbe3446903a277aabdd",
+      "source_sha256": "d26c05d62819b9cad9d33a7a9ac722189a5c3a5127ee3cbe3446903a277aabdd",
+      "exact_copy": true,
+      "size_bytes": 11029
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_C6_scaling.tex",
+      "kind": "paper_facing_artifact",
+      "sha256": "f6a7fe92b850207f776c4477a833ea456388d11563823433dcd479063a79f328",
+      "source_sha256": "f6a7fe92b850207f776c4477a833ea456388d11563823433dcd479063a79f328",
+      "exact_copy": true,
+      "size_bytes": 8999
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_S1_safe_frontier.csv",
+      "kind": "paper_facing_artifact",
+      "sha256": "681cda5422d5c64f17b86126dc3ac8a5e217a233618c500867daf65f378b1539",
+      "source_sha256": "681cda5422d5c64f17b86126dc3ac8a5e217a233618c500867daf65f378b1539",
+      "exact_copy": true,
+      "size_bytes": 1876
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_S1_safe_frontier.tex",
+      "kind": "paper_facing_artifact",
+      "sha256": "2dbf38822caadaa165b67e2726ff100ec9ed2f496c0466e40e0037aa68f19c76",
+      "source_sha256": "2dbf38822caadaa165b67e2726ff100ec9ed2f496c0466e40e0037aa68f19c76",
+      "exact_copy": true,
+      "size_bytes": 1650
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_S2_safe_points.csv",
+      "kind": "paper_facing_artifact",
+      "sha256": "3dcee3e8d05b7f2227635412bebc1a11d30bb0e3959c6ec2db03bccee67c2196",
+      "source_sha256": "3dcee3e8d05b7f2227635412bebc1a11d30bb0e3959c6ec2db03bccee67c2196",
+      "exact_copy": true,
+      "size_bytes": 1080
+    },
+    {
+      "path": "results/paper_complete/full/tables/Table_S2_safe_points.tex",
+      "kind": "paper_facing_artifact",
+      "sha256": "64987b3e6178dfb8764f6433bae0f12f1baad8d378ffc7988f7d9903efb32d4f",
+      "source_sha256": "64987b3e6178dfb8764f6433bae0f12f1baad8d378ffc7988f7d9903efb32d4f",
+      "exact_copy": true,
+      "size_bytes": 1026
+    },
+    {
+      "path": "docs/development_history/COMPLETE_REBUILD_CHANGELOG_V3_8.md",
+      "kind": "development_history",
+      "sha256": "35b2b19f19329ec7332b1410b2058eee531f16f9b0b1725f8c55c80f9f4eefa2",
+      "source_sha256": "35b2b19f19329ec7332b1410b2058eee531f16f9b0b1725f8c55c80f9f4eefa2",
+      "exact_copy": true,
+      "size_bytes": 573
+    },
+    {
+      "path": "docs/development_history/RUN_COMPLETE_REBUILD_V3_8.md",
+      "kind": "development_history",
+      "sha256": "1901cf077f845f4a764753a9bd6a22e4323bfb3b07d86cb1b1aab6dfc0b6af19",
+      "source_sha256": "1901cf077f845f4a764753a9bd6a22e4323bfb3b07d86cb1b1aab6dfc0b6af19",
+      "exact_copy": true,
+      "size_bytes": 1987
+    },
+    {
+      "path": "docs/development_history/README_DYNAMIC_PACT.md",
+      "kind": "development_history",
+      "sha256": "25f47bda1250edd8ac7deca0aec6ee044f822a8ad270e9023628070a07e0e5e2",
+      "source_sha256": "25f47bda1250edd8ac7deca0aec6ee044f822a8ad270e9023628070a07e0e5e2",
+      "exact_copy": true,
+      "size_bytes": 3092
+    },
+    {
+      "path": "docs/development_history/README_DYNAMIC_SAFE_PROJECTION.md",
+      "kind": "development_history",
+      "sha256": "f527cc25d191cf243c1156afa8305f98fe9597dcf16a0731077c904d77791b33",
+      "source_sha256": "f527cc25d191cf243c1156afa8305f98fe9597dcf16a0731077c904d77791b33",
+      "exact_copy": true,
+      "size_bytes": 701
+    },
+    {
+      "path": "docs/development_history/FINAL_COMMUNICATION_CHANGELOG_V3_7.md",
+      "kind": "development_history",
+      "sha256": "e4915c16d25298c482760c933cf11bb6b6b2603556ef3876793865280fd925c7",
+      "source_sha256": "e4915c16d25298c482760c933cf11bb6b6b2603556ef3876793865280fd925c7",
+      "exact_copy": true,
+      "size_bytes": 486
+    },
+    {
+      "path": "docs/development_history/FILE_MANIFEST_V3_8.md",
+      "kind": "development_history",
+      "sha256": "87755a114391fe735588d2d53719a4e6eccae6a9b1b4e58ac2ec08284cab6fb4",
+      "source_sha256": "87755a114391fe735588d2d53719a4e6eccae6a9b1b4e58ac2ec08284cab6fb4",
+      "exact_copy": true,
+      "size_bytes": 8191
+    }
+  ]
+}

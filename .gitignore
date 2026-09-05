@@ -1,0 +1,38 @@
+# MATLAB generated files
+*.asv
+*.autosave
+*.m~
+slprj/
+codegen/
+
+# Large numerical artifacts / checkpoints
+*.mat
+*.fig
+results/**
+!results/paper_complete/
+!results/paper_complete/full/
+!results/paper_complete/full/COMPLETE_PAPER_MANIFEST.md
+!results/paper_complete/full/figures/
+!results/paper_complete/full/figures/**
+!results/paper_complete/full/tables/
+!results/paper_complete/full/tables/**
+
+# Runtime / local state
+tmp/
+temp/
+cache/
+checkpoints/
+logs/
+
+# Python helper cache
+__pycache__/
+.pytest_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# One-shot finalizer backups
+_staging/
